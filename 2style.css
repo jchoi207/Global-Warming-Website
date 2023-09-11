@@ -1,0 +1,94 @@
+/* fonts */
+
+p {
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+h2 {
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+}
+
+li {
+  font-family: "Nunito", sans-serif;
+}
+
+ul {
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+.container {
+  max-width: 97%;
+  margin: 0 auto;
+  background: #8ca3d7;
+  padding: 50px;
+  border-bottom: 6.5px solid #ffffff !important;
+  font-size: 20px;
+}
+
+.picture1 {
+  background-image: url("photos/atmosphere.jpg");
+  background-position-x: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+a {
+  color: #ec41d6;
+}
+
+a:hover {
+  color: #15ff00;
+}
+
+a:active {
+  color: #000000;
+}
+
+.picture1 > #intro {
+  border-radius: 10px;
+  border: black solid 10px;
+  margin: auto;
+  padding: 20px;
+  min-height: 100px;
+  max-height: 1500px;
+  min-width: 870px;
+  max-width: 870px;
+  background: #ffffff;
+  opacity: 85%;
+}
+
+.picture1 > #intro > h1 {
+  color: #7585dc;
+}
+
+.picture1 > #ozone {
+}
+
+#list {
+  padding: 0px 0px 0px 15px;
+}
+
+#list > ol > li > #indent {
+  padding: 0px 0px 0px 60px;
+}
